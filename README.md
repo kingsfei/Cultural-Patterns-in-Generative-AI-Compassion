@@ -33,10 +33,11 @@ The experimental pipeline consists of three stages:
 
 All stages support repeated stochastic sampling and uncertainty estimation.
 
-## Usage Guide
-1. Parallel Multilingual Dataset Construction
+## 🧪 Usage Guide
 
-Translate the original EmoBench-style dataset into a target language while preserving semantic content, pragmatic intent, and label alignment.
+This repository is intended for **research reproducibility and methodological transparency**, rather than as a turn-key executable pipeline. Each script corresponds to a distinct methodological component of the experimental framework described in the paper, and is designed to be used independently depending on the research stage of interest. Specifically, `Translate_Emobench.py` supports parallel multilingual dataset construction under strict semantic and structural constraints; `Generate_subset.py` constructs the fixed compassionate action choice space used as experimental stimuli; `Test_prefs.py` measures large language model preferences over these strategies through repeated stochastic sampling; and `Test_priming.py` extends this evaluation by introducing minimal cultural identity primes to test causal effects on compassionate action selection. Model access, API providers, and credentials are intentionally decoupled from the code logic and configured externally, allowing the framework to be applied flexibly across different models and deployment environments.
+
+
 
 
 ## 🔌 Supported APIs
@@ -54,4 +55,15 @@ Providers implementing the OpenAI Chat Completions schema, including:
 - OpenRouter
 - DeepSeek
 -SiliconFlow
+
+
+## Citation
+If you find our work useful for your research, please kindly cite our paper as follows:
+@article{cultural_compassion_llm,
+  title   = {Cultural Patterns in Generative AI Compassion},
+  author  = {Anonymous},
+  journal = {Under Review},
+  year    = {2025}
+}
+
 
