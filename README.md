@@ -57,13 +57,15 @@ Providers implementing the OpenAI Chat Completions schema, including:
 -SiliconFlow
 
 
-## Citation
+## 📖 Citation
+
 If you find our work useful for your research, please kindly cite our paper as follows:
+
+```bibtex
 @article{cultural_compassion_llm,
   title   = {Cultural Patterns in Generative AI Compassion},
   author  = {Anonymous},
   journal = {Under Review},
   year    = {2025}
 }
-
 
