@@ -1,33 +1,57 @@
 # Cultural Patterns in Generative AI Compassion
 
-This repository contains the official research code accompanying the paper:
+> **Official Research Code Repository**
 
-> **Cultural Patterns in Generative AI Compassion**  
-> *(Manuscript under review)*
+This repository contains the research code accompanying the paper:
 
-The codebase implements a multi-stage experimental pipeline for studying how large language models (LLMs) understand emotions, select compassionate actions, and respond to cultural identity priming across languages.
+**Cultural Patterns in Generative AI Compassion**  
+*(Manuscript under review)*
 
----
+It implements a multi-stage experimental framework for examining how large language models (LLMs) understand emotions, select compassionate actions, and respond to cultural identity cues across languages.
 
-## Overview
 
-This project investigates **cross-cultural patterns in generative AI compassion** using a controlled, choice-based experimental framework.
+## ✨ Overview
 
-Rather than evaluating free-form text generation, the framework operationalizes compassion as **repeated choices over a fixed set of culturally grounded action strategies**, allowing systematic comparison across:
+This project studies **cross-cultural patterns in generative AI compassion** using a **controlled, choice-based experimental design**.
 
-- languages,
-- model families,
-- and cultural identity conditions.
+Instead of evaluating free-form text generation, compassion is operationalized as **repeated choices over a fixed set of culturally grounded action strategies**, enabling systematic comparison across:
 
-The overall experimental pipeline consists of three stages:
+- 🌍 Languages  
+- 🤖 Model families  
+- 🧭 Cultural identity conditions  
+
+The experimental pipeline consists of three stages:
 
 1. **Parallel Multilingual Dataset Construction**  
-   Construction of semantically aligned multilingual emotional scenarios while preserving pragmatic intent and emotional logic.
+   Semantically aligned translation of emotional scenarios while preserving pragmatic intent and emotional logic.
 
 2. **Compassionate Action Preference Measurement**  
-   Measurement of LLM preferences over four predefined compassionate action strategies reflecting distinct cultural orientations.
+   Measurement of LLM preferences over predefined compassionate action strategies reflecting cultural orientations.
 
-3. **Cultural Identity Promting**  
-   Examination of whether minimal cultural identity cues causally shift compassionate action preferences under otherwise identical task conditions.
+3. **Cultural Identity Priming (Causal Test)**  
+   A controlled manipulation introducing minimal cultural identity cues to test causal effects on compassionate behavior.
 
 All stages support repeated stochastic sampling and uncertainty estimation.
+
+## Usage Guide
+1. Parallel Multilingual Dataset Construction
+
+Translate the original EmoBench-style dataset into a target language while preserving semantic content, pragmatic intent, and label alignment.
+
+
+## 🔌 Supported APIs
+
+The codebase supports multiple large language model backends through a unified interface.
+
+**OpenAI**
+
+- Official OpenAI API
+- GPT-4–series models
+  
+**OpenAI-Compatible APIs**
+Providers implementing the OpenAI Chat Completions schema, including:
+
+- OpenRouter
+- DeepSeek
+-SiliconFlow
+
