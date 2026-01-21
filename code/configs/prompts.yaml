@@ -1,0 +1,128 @@
+sys:
+  en: |
+    # Instructions
+    
+    In this task, you are presented with a scenario and a multiple-choice question. 
+    Carefully analyze the situation, take the individual’s perspective.
+    and select the option that best reflects her/his emotion.
+
+    # Output
+  zh: |
+  de: |
+    # Anleitung
+    In dieser Aufgabe erhältst du ein Szenario, eine Frage und mehrere Optionen.
+    Analysiere das Szenario sorgfältig und versetze dich in die Perspektive der beteiligten Person.
+    Wähle anschließend die Option, die ihre Perspektive oder emotionale Reaktion am besten widerspiegelt.
+
+    # Ausgabe
+  ja: |
+    # 説明
+    このタスクでは、シナリオと質問、複数の選択肢が与えられます。
+    状況を丁寧に分析し、当事者の視点に立って考えてください。
+    その上で、当事者の視点や感情反応を最もよく反映する選択肢を選んでください。
+
+    # 出力
+    # 说明
+    在这个任务中，你会面临一个场景、一个问题和多个选项。
+    仔细分析场景，并从相关人员的角度进行思考。
+    然后，选择最能反映他们的观点或情绪反应的选项。
+
+    # 输出
+EA:
+  en: |
+    ## Scenario
+    {scenario}
+    
+    ## Question 
+    In this scenario, what is the most effective {q_type} for {subject}?
+    
+    ## Choices
+    {choices}
+  zh: |
+  de: |
+    ## Szenario
+    {scenario}
+
+    ## Frage
+    Was ist in diesem Szenario die wirksamste {q_type} für {subject}?
+
+    ## Auswahlmöglichkeiten
+    {choices}
+  ja: |
+    ## シナリオ
+    {scenario}
+
+    ## 質問
+    この状況で、{subject} にとって最も効果的な{q_type}はどれですか？
+
+    ## 選択肢
+    {choices}
+    ## 场景
+    {scenario}
+    
+    ## 问题
+    在这个场景中，{subject}最有效的{q_type}是什么？
+    
+    ## 选项
+    {choices}
+EU:
+  en: |
+    ## Scenario
+    {scenario}
+    
+    ## Question 1
+    What emotion(s) would {subject} ultimately feel in this situation?
+    
+    ## Choices for Question 1
+    {emo_choices}
+
+    ## Question 2
+    Why would {subject} feel these emotions in this situation?
+
+    ## Choices for Question 2
+    {cause_choices}
+  zh: |
+  de: |
+    ## Szenario
+    {scenario}
+
+    ## Frage 1
+    Welche Emotion(en) würde {subject} in dieser Situation letztlich empfinden?
+
+    ## Auswahlmöglichkeiten für Frage 1
+    {emo_choices}
+
+    ## Frage 2
+    Warum würde {subject} in dieser Situation diese Emotionen empfinden?
+
+    ## Auswahlmöglichkeiten für Frage 2
+    {cause_choices}
+  ja: |
+    ## シナリオ
+    {scenario}
+
+    ## 質問 1
+    この状況で、{subject} は最終的にどのような感情を抱くでしょうか？
+
+    ## 質問1の選択肢
+    {emo_choices}
+
+    ## 質問 2
+    なぜ {subject} はこの状況でそのような感情を抱くのでしょうか？
+
+    ## 質問2の選択肢
+    {cause_choices}
+    ## 场景
+    {scenario}
+    
+    ## 问题 1
+    在这种情况下，{subject}最终会感受到什么情绪？
+    
+    ## 问题 1 的选项
+    {emo_choices}
+
+    ## 问题 2
+    {subject}为什么会在这种情况下感受到这些情绪？
+
+    ## 问题 2 的选项
+    {cause_choices}
