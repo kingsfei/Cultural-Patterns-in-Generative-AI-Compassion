@@ -64,8 +64,8 @@ If you find our work useful for your research, please kindly cite our paper as f
 ```bibtex
 @article{cultural_compassion_llm,
   title   = {Cultural Patterns in Generative AI Compassion},
-  author  = {Anonymous},
-  journal = {Under Review},
+  author  = {Yuanguang Zhong, Jifei Liu, Zhi Chen, Xing Wang},
+  journal = {Under Revie},
   year    = {2025}
 }
 
